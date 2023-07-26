@@ -5,8 +5,8 @@ This repository contains a subset of our Ruby on Rails app. There are 3 models.
 Postings have a `body` attribute, which is the body of the Article, Question or Review. 
 The text of the Posting is stored as raw html. Some Postings have images embedded within the text of the body, in the form of an `<img>` tag wrapped in `<figure>` tags.
 
-Throughout the site,  Posting "snippets" are displayed. A snippet is the first few lines of the Posting. 
-Tthey include links to read the full Posting, whether it's an Article, Question or Product Review.  
+Throughout the site, Posting "snippets" are displayed. A snippet is the first few lines of the Posting. 
+They include links to read the full Posting, whether it's an Article, Question or Product Review.  
 
 The repo also contains one view file for displaying a "snippet" and a single spec file.
 
@@ -16,7 +16,7 @@ when displaying a Article "snippet" and the article contains images, the first i
 If an Article contains multiple images, only the first image should be displayed.
 
 ## Your Task
-You are the developer assigned to review the code that was created for this feature. There are many ways this code could be impproved.
+You are the developer assigned to review the code that was created for this feature. There are many ways this code could be improved.
 As you review the code, try to answer the following questions:
 
 - Does the code work?
