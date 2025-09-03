@@ -1,4 +1,5 @@
 -image = posting.article_with_image
+-# instead of using this approach we can create a helper and ues contant_tag that helps us to build safe html and reuse it
 -if image
   figure id="img_#{posting.id}"
     img src="#{image['src']}" alt="#{image['alt'] || posting.title}" data-image="#{image['data-image']}"

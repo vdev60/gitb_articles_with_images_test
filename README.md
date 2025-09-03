@@ -23,6 +23,7 @@ As you review the code, try to answer the following questions:
 - What are the shortcomings of this implementation?
 - Does the code adhere to best practices?
 - How might you implement this differently?
+I would use Nokogiri to parse the html
 
 #### RSpec
 The code includes a unit test, which passes. What is wrong with this unit test? How could it be improved?
